@@ -72,7 +72,7 @@ def getFoodPredictions():
 
 @app.route('/')
 def home():
-    return 'CPI Prediction'
+    return render_template('subindex.html')
 
 if __name__ == '__main__':
     app.run(debug=True)
